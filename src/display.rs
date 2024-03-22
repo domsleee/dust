@@ -1,4 +1,3 @@
-
 use ansi_term::Colour::Red;
 use lscolors::{LsColors, Style};
 

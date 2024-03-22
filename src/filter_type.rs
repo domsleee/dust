@@ -1,5 +1,5 @@
-use du_dust::display_node::DisplayNode;
 use crate::node::Node;
+use du_dust::display_node::DisplayNode;
 use std::collections::HashMap;
 use std::ffi::OsStr;
 use std::path::PathBuf;
