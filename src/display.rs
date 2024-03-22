@@ -1,4 +1,3 @@
-use crate::display_node::DisplayNode;
 
 use ansi_term::Colour::Red;
 use lscolors::{LsColors, Style};
@@ -13,6 +12,8 @@ use std::fs;
 use std::iter::repeat;
 use std::path::Path;
 use thousands::Separable;
+
+use crate::DisplayNode;
 
 pub static UNITS: [char; 4] = ['T', 'G', 'M', 'K'];
 static BLOCKS: [char; 5] = ['█', '▓', '▒', '░', ' '];

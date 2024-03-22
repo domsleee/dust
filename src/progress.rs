@@ -11,7 +11,7 @@ use std::{
     time::Duration,
 };
 
-use crate::display::human_readable_number;
+use du_dust::display::human_readable_number;
 
 /* -------------------------------------------------------------------------- */
 

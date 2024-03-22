@@ -6,7 +6,7 @@ use std::io::IsTerminal;
 use std::path::Path;
 use std::path::PathBuf;
 
-use crate::display::get_number_format;
+use du_dust::display::get_number_format;
 
 #[derive(Deserialize, Default)]
 #[serde(rename_all = "kebab-case")]

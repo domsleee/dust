@@ -1,4 +1,4 @@
-use crate::display_node::DisplayNode;
+use du_dust::display_node::DisplayNode;
 use crate::node::Node;
 use std::collections::HashMap;
 use std::ffi::OsStr;

@@ -1,8 +1,6 @@
 mod cli;
 mod config;
 mod dir_walker;
-mod display;
-mod display_node;
 mod filter;
 mod filter_type;
 mod node;
@@ -14,7 +12,8 @@ use crate::cli::build_cli;
 use crate::progress::RuntimeErrors;
 use clap::parser::ValuesRef;
 use dir_walker::WalkData;
-use display::InitialDisplayData;
+use du_dust::draw_it;
+use du_dust::InitialDisplayData;
 use filter::AggregateData;
 use progress::PIndicator;
 use regex::Error;
@@ -27,7 +26,6 @@ use std::sync::Arc;
 use std::sync::Mutex;
 use sysinfo::{System, SystemExt};
 
-use self::display::draw_it;
 use config::get_config;
 use dir_walker::walk_it;
 use filter::get_biggest;

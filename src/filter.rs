@@ -1,4 +1,5 @@
-use crate::display_node::DisplayNode;
+use du_dust::DisplayNode;
+
 use crate::node::Node;
 use std::collections::BinaryHeap;
 use std::collections::HashMap;
